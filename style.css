@@ -1,0 +1,192 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif; /* Fancy font for body text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #1e3859; /* Dark blue background */
+    color: #fff; /* White text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif; /* Fancy font for headings */
+    color: #fff; /* White text color for headings */
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; /* Fancy font for paragraphs */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+a {
+    color: #ffc107; /* Yellow color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header section */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 18px;
+    color: #f0f0f0; /* Light gray color for header paragraph */
+}
+
+/* Education section */
+.education {
+    margin-bottom: 30px;
+}
+
+.education h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.education ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.education li {
+    margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.education h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education p {
+    margin-left: 40px; /* Adjust the indentation level as needed */
+}
+
+/* Skills section */
+.skills {
+    margin-bottom: 30px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #ffc107; /* Yellow background for skills */
+    color: #1e3859; /* Dark blue text color for skills */
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Projects section */
+.projects {
+    margin-bottom: 30px;
+}
+
+.projects h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.projects ol li {
+    margin-bottom: 8px;
+}
+
+/* Contact information section */
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-info ul li {
+    margin-bottom: 8px;
+}
+
+.education,
+.skills,
+.projects,
+.certifications,
+.strengths,
+.languages{
+    margin-bottom: 30px; /* Add bottom margin to create space between sections */
+    border-bottom: 2px solid white; /* Add a white border line between sections */
+    padding-bottom: 20px; /* Add padding at the bottom of each section */
+}
+
+.separator {
+    border: none;
+    border-top: 2px solid white; /* Adjust the thickness and style as needed */
+    margin-top: 20px; /* Adjust the top margin to control spacing */
+}
+
+.profile {
+    display: flex;
+    align-items: center; /* Align items at the start of the flex container */
+}
+
+.profile-info {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px; /* Add spacing between image and text */
+}
+
+.my-image {
+    width: 200px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add spacing between image and text */
+	align-self: center;
+}
+
+.bottom-container {
+  background-color: #1e3859;
+  margin: 0px;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+.copyright {
+  color: #fff;
+  display: block;
+  margin: 10px auto 10px auto;
+}
